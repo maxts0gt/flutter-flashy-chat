@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "141128968117",
+    "project_id": "flash-chat-40cb2",
+    "storage_bucket": "flash-chat-40cb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141128968117:android:07346eb51f504abe859bfc",
+        "android_client_info": {
+          "package_name": "com.maxtsogt.flashy_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141128968117-9munvmvsp2a6j0p1lenjlakm7ho81ngr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvivAeV5ZdSFS3gZfHM9Ei-VT_XK4mkQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141128968117-9munvmvsp2a6j0p1lenjlakm7ho81ngr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
