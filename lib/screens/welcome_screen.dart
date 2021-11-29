@@ -7,6 +7,8 @@ import '../components/rounded_button.dart';
 class WelcomeScreen extends StatefulWidget {
   static String id = 'welcome_screen';
 
+  const WelcomeScreen({Key? key}) : super(key: key);
+
   @override
   _WelcomeScreenState createState() => _WelcomeScreenState();
 }
@@ -41,7 +43,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     return Scaffold(
       backgroundColor: animation.value,
       body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 24.0),
+        padding: const EdgeInsets.symmetric(horizontal: 24.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -50,7 +52,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               children: [
                 Hero(
                   tag: 'logo',
-                  child: Container(
+                  child: SizedBox(
                     child: Image.asset('images/logo.png'),
                     height: 60,
                   ),
@@ -70,7 +72,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 48.0,
             ),
             RoundedButton(
